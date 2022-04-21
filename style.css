@@ -1,0 +1,24 @@
+body {
+  margin: 20px;
+  background-color: #FF645C;
+}
+
+img {
+  border-radius: 100%;
+}
+
+table {
+  border="1 solid #000000";
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #9c9c9c;
+  border-width: 5px;
+  width: 3%;
+}
+
+h1,h3 {
+  color: #ffffff;
+}
