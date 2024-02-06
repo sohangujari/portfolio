@@ -1,87 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
-  <title>Sohan's Personal Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="light.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <table cellspacing=20>
-    <tr>
-      <td><img src="images/sohan.jpg" alt="Sohan's Profile Picture" width="200px"></td>
-      <td>
-        <h1>Sohan Gujari</h1>
-        <p><em></em></p>
-        <p>I am a student at Thakur College Of Engineering & Technology and also Developer at Stract Technology. <br>
-          My Branch focuses on Artificial Intelligence and Data Science, the roles they play in AI Robots and Data Analysis.</p>
-      </td>
-    </tr>
-  </table>
-  <hr size=2>
-  <!-- Data -->
-  <h3>Technical Skills</h3>
-  <ul>
-    <li> <a href="http://stremble.ml/">Web Development</a> </li>
-    <li>Data Analytics</li>
-    <li> <a href="https://www.instagram.com/artorkdesign">Graphic Designer</a> </li>
-  </ul>
-  <h3>Hobbies</h3>
-  <ol>
-    <li>Programming</li>
-    <li>Playing Football</li>
-    <li>Reserch & Development</li>
-  </ol>
-  <hr size=2>
-  <h3>Work Experience</h3>
-  <table cellspacing=10>
-    <thead>
-      <th>Dates</th>
-      <th>Work</th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2022-2023</td>
-        <td>Besick</td>
-      </tr>
-      <td>2021-2023</td>
-      <td>Freelance</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr size=2>
-  <h3>Skills</h3>
-  <table cellspacing=10>
-    <tr>
-      <td>HTML</td>
-      <td>⭐⭐⭐⭐⭐</td>
-      <td>CSS</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Javascript</td>
-      <td>⭐⭐⭐⭐</td>
-      <td>React.js</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>MySQL</td>
-      <td>⭐⭐⭐⭐⭐</td>
-      <td>C++</td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Python</td>
-      <td>⭐⭐⭐⭐</td>
-      <td>R Programming</td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-  </table>
-  <hr size=2>
-  <a href="contact.html">Contact Me</a>
-</body>
+    <!-- Navbar -->
+    <div class="navbar">
+    <div class="logo-icon"></div>
+    <div class="menu">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+        <a href="#" class="cv-button">Download CV</a>
+        <button class="mode" onclick="Mode()"><img id="modeIcon" src="assets/light-icon.svg" alt=""></button>
+    </div>
+    </div>
 
+    <center><div class="circle"></div></center>
+
+    <!-- Intro Section -->
+    <div class="intro">
+        <img src="assets/Face Icon.svg" alt="" class="face-icon">
+        <h1>Hi, I,m Sohan Gujari<br>A Full-Stack Web Developer</h1>
+        <a href="#" class="connect-button">Connect with me</a>
+    </div>
+
+    <!-- About Section -->
+    <div class="section-block" id="about">
+        <h2>About Me</h2>
+        <p>I am a Full-stack web developer passionate about innovative and user-friendly web applications, with experience in a wide range of projects.</p><br>
+        <p>Front-end: Visually appealing and interactive user interfaces with HTML, CSS, Bootstrap, JavaScript, and React. Back-end: Robust and scalable back-end systems with PHP, MySQL, Node.js, Express.js, and MongoDB. also cloud platforms such as AWS and Azure.</p><br>
+        <p>Strong communicator and team player with passion for building complete web solutions. Eager to take on new challenges and learn, committed to delivering high-quality products with great UX.</p>
+    </div>
+
+    <!-- Experience Section -->
+    <div class="section-block" id="experience">
+        <h2>Experience</h2>
+        <div class="experience-block">
+            <p>Dec 2022 - Jul 2023</p>
+            <div>
+                <h3>Web Developer · Shrimali Media</h3>
+                <p>Worked at Shrimali Media on various client projects including building an artist portfolio website, a jewellery e-commerce site, and other websites.</p>
+            </div>
+        </div>
+
+        <div class="experience-block">
+            <p>Dec 2022 - Mar 2023</p>
+            <div>
+                <h3>Web Developer · Koverify/Besick</h3>
+                <p>Designed, built, and optimized responsive ecommerce website for Koverify/Besick Clothing, including front-end architecture, UI/UX, integrated payments, and 3x faster load times through caching, image optimization, and CDN.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Section -->
+    <div class="section-block" id="projects">
+        <h2>Projects</h2>
+    </div>
+
+    <div class="footer">
+        <div class="copyright">
+            <span>© 2023</span>
+            <span>sohan</span>
+        </div>
+        <div class="sitetext">
+            <span>Site designed and coded with ❤️‍🔥</span>
+        </div>
+        <div>
+            <a href=""><img src="assets/chevron-up.svg" alt="" class="scrollup"></a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>

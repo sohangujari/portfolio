@@ -7,10 +7,6 @@ body {
     background: #050F21;
 }
 
-.light-mode {
-    background: #fff;
-}
-
 .light-navbar {
     position: fixed;
     align-items: center;
@@ -161,36 +157,5 @@ h3 {
 
 /* Project Section */
 .section-block {
-    margin: 200px 120px 0px 120px;
-}
-
-.footer {
     margin: 200px 120px 80px 120px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.copyright :nth-child(1) {
-    font-family: 'Inconsolata', monospace;
-    font-size: 24px;
-    color: #fff;
-}
-
-.copyright :nth-child(2) {
-    font-family: 'Inter', sans-serif;
-    font-size: 24px;
-    color: #fff;
-}
-
-.sitetext {
-    font-family: 'Inconsolata', monospace;
-    font-size: 24px;
-    color: #fff;
-}
-
-.scrollup {
-    background: #fff;
-    padding: 10px;
-    border-radius: 100%;
 }
