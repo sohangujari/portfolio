@@ -159,3 +159,16 @@ h3 {
 .section-block {
     margin: 200px 120px 80px 120px;
 }
+
+.project-block {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.project-item {
+    color: #fff;
+    background-color: #7839ee30;
+    padding: 25px;
+    border-radius: 8px;
+}
