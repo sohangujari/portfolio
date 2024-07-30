@@ -1,106 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="light.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- Navbar -->
-    <div class="navbar">
-    <!-- <div class="logo-icon"></div> -->
-    <p>[Sohan]</p>
-    <div class="menu">
-        <nav>
-            <a href="#">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#">Contact</a>
-        </nav>
-        <a href="#" class="cv-button">Download CV</a>
-        <button class="mode" onclick="Mode()"><img id="modeIcon" src="assets/light-icon.svg" alt=""></button>
-    </div>
-    </div>
-
-    <center><div class="circle"></div></center>
-
-    <!-- Intro Section -->
-    <div class="intro">
-        <img src="assets/Face Icon.svg" alt="" class="face-icon">
-        <h1>Hi, I,m Sohan Gujari<br>A Full-Stack Web Developer</h1>
-        <a href="#" class="connect-button">Connect with me</a>
-    </div>
-
-    <!-- About Section -->
-    <div class="section-block" id="about">
-        <h2>About Me</h2>
-        <p>I am a Full-stack web developer passionate about innovative and user-friendly web applications, with experience in a wide range of projects.</p><br>
-        <p>Front-end: Visually appealing and interactive user interfaces with HTML, CSS, Bootstrap, JavaScript, and React. Back-end: Robust and scalable back-end systems with PHP, MySQL, Node.js, Express.js, and MongoDB. also cloud platforms such as AWS and Azure.</p><br>
-        <p>Strong communicator and team player with passion for building complete web solutions. Eager to take on new challenges and learn, committed to delivering high-quality products with great UX.</p>
-    </div>
-
-    <!-- Experience Section -->
-    <div class="section-block" id="experience">
-        <h2>Experience</h2>
-        <div class="experience-block">
-            <p>Jan 2024 - Current</p>
-            <div>
-                <h3>Full Stack Developer · K3Y Technology Services PVT LTD</h3>
-                <p></p>
-            </div>
-        </div>
-
-        <div class="experience-block">
-            <p>Dec 2022 - Jul 2023</p>
-            <div>
-                <h3>Web Developer · Shrimali Media</h3>
-                <p>Worked at Shrimali Media on various client projects including building an artist portfolio website, a jewellery e-commerce site, and other websites.</p>
-            </div>
-        </div>
-
-        <div class="experience-block">
-            <p>Dec 2022 - Mar 2023</p>
-            <div>
-                <h3>Web Developer · Koverify/Besick</h3>
-                <p>Designed, built, and optimized responsive ecommerce website for Koverify/Besick Clothing, including front-end architecture, UI/UX, integrated payments, and 3x faster load times through caching, image optimization, and CDN.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Project Section -->
-    <div class="section-block" id="projects">
-        <h2>Projects</h2>
-        <div class="project-block">
-            <div class="project-item">
-                <h3>Auto-GPT 🤖</h3>
-                <p>This is a virtual assistant powered by OpenAI's GPT-3 API. It can understand voice commands using speech recognition and respond via text-to-speech.</p>
-            </div>
-            <div class="project-item">
-                <h3>Web Scraping Tool</h3>
-                <p>This is a simple web scraping tool with a Tkinter GUI. It allows scraping data from a website into a CSV file.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer">
-        <div class="copyright">
-            <span>© 2023</span>
-            <span>sohan</span>
-        </div>
-        <div class="sitetext">
-            <span>Site designed and coded with ❤️‍🔥</span>
-        </div>
-        <div>
-            <a href=""><img src="assets/chevron-up.svg" alt="" class="scrollup"></a>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
-</body>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
