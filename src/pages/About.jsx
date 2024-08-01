@@ -1,8 +1,8 @@
 import React from 'react'
 
-function About() {
+function About({ id }) {
   return (
-    <div className='mt-48 mr-28 mb-20 ml-28'>
+    <div id={id} className='mt-28 mr-28 mb-20 ml-28 pt-20'>
         <h2 className='font-inter text-4xl text-white font-medium mb-10'>About Me</h2>
         <div className='font-inconsolata text-3xl text-neutral-200 text-justify'>
             <p>I am a Full-stack web developer passionate about innovative and user-friendly web applications, with experience in a wide range of projects.</p><br />
