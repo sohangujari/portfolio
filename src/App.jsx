@@ -7,8 +7,7 @@ import Experience from "./pages/Experience";
 
 const App = () => {
   return (
-    <>
-    <div className="bg-[#050F21]">
+    <div>
       <Navbar />
       <Circle />
       <Intro />
@@ -16,7 +15,6 @@ const App = () => {
       <Experience />
       <Footer />
     </div>
-    </>
   )
 }
 
