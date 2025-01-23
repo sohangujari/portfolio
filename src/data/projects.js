@@ -4,8 +4,8 @@ const projects = [
   {
     image: Test,
     name: "Nero - AI Assistant",
-    description: "Nero is a local virtual assistant using LLMs like GPT-3, Gemini, and Ollama. It features voice commands via SpeechRecognition and text-to-speech with PyWin32. Nero can open websites, play songs, tell the time, search YouTube, and provide weather updates, enabling conversational interactions and printing responses.",
-    tags: ["Python","SpeechRecognition","PyWin32","OpenAI","Gemini","Ollama","Requests"]
+    description: "Nero is a local virtual assistant using LLMs like OpenAI and Gemini. It features voice commands via SpeechRecognition and text-to-speech with PyWin32. Nero can open websites, play songs, tell the time, search YouTube, and provide weather updates, enabling conversational interactions and printing responses.",
+    tags: ["Python","SpeechRecognition","PyWin32","OpenAI","Gemini","Requests"]
   },
   {
     image: Test,
